@@ -3,7 +3,7 @@ package queue;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-public class QueueClass <T> {
+/*public class QueueClass <T> {
     private QueueNode<T> first;
     private QueueNode<T> last;
 
@@ -44,4 +44,4 @@ public class QueueClass <T> {
         return  toReturn;
     }
 
-}
+}*/
