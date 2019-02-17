@@ -56,10 +56,10 @@ public class GraphTraversal {
 
     public static void main(String[] args) {
 
-        Node n3 = new Node("3rd", Collections.EMPTY_LIST, false) ;
-        Node n2 = new Node("2nd", Collections.EMPTY_LIST, false);
-        Node n1 = new Node("1st", Arrays.asList(n2), false);
-        Node n0 = new Node("0th", Arrays.asList(n1, n2, n3), false);
+        Node n3 = new Node("3rd", Collections.EMPTY_LIST, null, false) ;
+        Node n2 = new Node("2nd", Collections.EMPTY_LIST,null, false);
+        Node n1 = new Node("1st", Arrays.asList(n2), null, false);
+        Node n0 = new Node("0th", Arrays.asList(n1, n2, n3), null, false);
         Graph g = new Graph(Arrays.asList(n0, n1, n2, n3));
         GraphTraversal traversal = new GraphTraversal();
         //traversal.dfs(n0);
