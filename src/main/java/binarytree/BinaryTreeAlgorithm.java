@@ -1,5 +1,9 @@
 package binarytree;
 
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinaryTreeAlgorithm {
 
 
@@ -24,6 +28,27 @@ public class BinaryTreeAlgorithm {
         return root;
 
 
+    }
+
+    public void levelOrderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.add(root);
+
+        while(!queue.isEmpty()) {
+            TreeNode node = queue.remove();
+            System.out.print(node.getData());
+            System.out.print(" ");
+            if (node.getLeft() != null) {
+                queue.add(node.getLeft());
+            }
+            if (node.getRight() != null) {
+                queue.add(node.getRight());
+            }
+
+        }
     }
 
     public boolean isBalanced(TreeNode root) {

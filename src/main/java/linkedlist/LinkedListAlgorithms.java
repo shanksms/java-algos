@@ -1,5 +1,7 @@
 package linkedlist;
 
+import java.util.List;
+
 public class LinkedListAlgorithms {
 
 
@@ -32,6 +34,25 @@ public class LinkedListAlgorithms {
         llist.getHead().next.next.next.next = llist.getHead();
 
         System.out.println(detectLoop(llist));
+    }
+
+    public LinkedListNode addAtASpecificPosition(int position, LinkedListNode head, int data) {
+
+        LinkedListNode node = new LinkedListNode(data);
+        LinkedListNode current = head;
+        if (head == null) {
+            return node;
+        }
+
+        while (position != 1 && current != null) {
+            current = current.next;
+        }
+
+        node.next = current.next;
+        current.next = node;
+
+        return head;
+
     }
 
     public static void main(String args[])
