@@ -78,6 +78,47 @@ public class BinaryTreeAlgorithm {
 
     }
 
+    //Program to find lowest common ancestors
+    public TreeNode findLCA(TreeNode<Integer> root, int n1, int n2) {
+        if (root == null) {
+            return null;
+        }
+
+        if (root.getData() > n1 && root.getData() > n2) {
+            return findLCA(root.getLeft(), n1, n2);
+        }
+        if (root.getData() < n1 && root.getData() < n2) {
+            return findLCA(root.getRight(), n1, n2);
+        }
+        return root;
+
+
+    }
+
+    //Program to check BST property of a BST
+    public boolean checkBST(TreeNode<Integer> root) {
+        //At root level, min and max does not apply
+        return checkBSTHelper(root, null, null);
+
+    }
+
+    private boolean checkBSTHelper(TreeNode<Integer> root, Integer min, Integer max) {
+        //Idea is to keep passing down min and max value and check if it violates at any node.
+        if (root == null) {
+            return true;
+        }
+        if (min != null && root.getData() <= min) {
+            return false;
+        }
+
+        if (max != null && root.getData() >= max) {
+            return false;
+        }
+
+        return checkBSTHelper(root.getLeft(), min, root.getData())
+                && checkBSTHelper(root.getRight(),  root.getData(), max) ;
+    }
+
     public void testBinaryTreeHeight() {
         TreeNode root = new TreeNode(2, null, null);
         root.setLeft(
