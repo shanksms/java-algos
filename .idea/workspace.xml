@@ -11,9 +11,6 @@
       <change beforePath="$PROJECT_DIR$/../java-algorithms/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-algorithms/java-algorithms.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-algorithms/src/graphs/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binarytree/BinaryTreeAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarytree/BinaryTreeAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgorithms.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,15 +61,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/BinaryTreeAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="313">
               <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#717#727#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/LeftRotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -106,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/binarytree/BinaryTreeAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrays/LeftRotation.java" />
       </list>
     </option>
   </component>
@@ -171,38 +178,6 @@
             </path>
             <path>
               <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="binarytree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -213,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550545421371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550711474875" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListAlgorithms">
+  <component name="RunManager" selected="Application.LeftRotation">
     <configuration name="BinaryTreeAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarytree.BinaryTreeAlgorithm" />
       <module name="java-algos" />
@@ -247,6 +222,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotation" />
+      <module name="java-algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,6 +270,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftRotation" />
         <item itemvalue="Application.LinkedListAlgorithms" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.BinaryTreeAlgorithm" />
@@ -306,7 +295,7 @@
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -316,7 +305,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16693164" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16693164" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,12 +472,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/BinaryTreeAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="313">
           <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#717#727#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/LeftRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
