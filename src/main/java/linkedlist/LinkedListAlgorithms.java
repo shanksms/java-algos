@@ -55,6 +55,29 @@ public class LinkedListAlgorithms {
 
     }
 
+    public LinkedListNode removeNthFromEnd(LinkedListNode head, int n) {
+        //Dummy node is created for edge case where we have to remove head node;
+        //[1] linked list
+        //1 position from end
+        LinkedListNode dummy = new LinkedListNode(0);
+        dummy.next = head;
+        LinkedListNode fast = dummy;
+        LinkedListNode slow = dummy;
+        int i = 0;
+        for (; i <= n; i++) {
+            fast = fast.next;
+        }
+
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+
+        slow.next = slow.next.next;
+
+        return dummy.next;
+
+    }
     public static void main(String args[])
     {
 
