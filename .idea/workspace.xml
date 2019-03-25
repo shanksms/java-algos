@@ -53,20 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+            <state relative-caret-position="384">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/graph/Node.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/LevelOrderTraversalProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+            <state relative-caret-position="60">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/java/strings/TelephoneNumberFormatting.java" />
         <option value="$PROJECT_DIR$/src/main/java/bit/MaxNumberByCyclicRightShift.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgorithms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binarytree/LevelOrderTraversalProblem.java" />
       </list>
     </option>
   </component>
@@ -234,6 +235,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="binarytree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -244,7 +253,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553428652907" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553504711613" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -261,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxNumberByCyclicRightShift">
+  <component name="RunManager" selected="Application.LinkedListAlgorithms">
     <configuration name="CheckAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.CheckAnagram" />
       <module name="java-algos" />
@@ -275,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestelementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.KthLargestelementInArray" />
+    <configuration name="LinkedListAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListAlgorithms" />
       <module name="java-algos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListAlgorithms" />
         <item itemvalue="Application.MaxNumberByCyclicRightShift" />
         <item itemvalue="Application.TelephoneNumberFormatting" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.CheckAnagram" />
-        <item itemvalue="Application.KthLargestelementInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -675,8 +684,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="384">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/LevelOrderTraversalProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
