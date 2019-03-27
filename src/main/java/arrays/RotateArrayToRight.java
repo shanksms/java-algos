@@ -1,6 +1,9 @@
 package arrays;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class RotateArrayToRight {
     public static void rotate(int[] nums, int k) {
@@ -19,5 +22,9 @@ public class RotateArrayToRight {
         int [] arr = new int[] {1, 2, 3};
         rotate(arr, 4);
         System.out.println(Arrays.toString(arr));
+        List<Integer> ls =
+                IntStream.range(1, 3).boxed().collect(Collectors.toList());
+
+
     }
 }
