@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/recursion/MinCoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -32,6 +32,15 @@
                 <element signature="e#746#747#0" expanded="true" />
                 <element signature="e#782#783#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp/MinCoinChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -71,15 +80,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/graph/leetcode/graph/FindItenerary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -177,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/main/java/lrucache/LruCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion/MinCoinChange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dp/MinCoinChange.java" />
       </list>
     </option>
   </component>
@@ -264,22 +265,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -289,7 +274,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553948653988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553960568082" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -306,26 +291,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinCoinChange">
+  <component name="RunManager" selected="Application.MinCoinChange (1)">
     <configuration name="EvenOddIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.EvenOddIndex" />
       <module name="java-algos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KnapSack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.KnapSack01" />
-      <module name="java-algos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,6 +331,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinCoinChange (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MinCoinChange" />
+      <module name="java-algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.MinCoinChange" />
       <module name="java-algos" />
@@ -374,11 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinCoinChange (1)" />
         <item itemvalue="Application.MinCoinChange" />
         <item itemvalue="Application.LruCache" />
         <item itemvalue="Application.EvenOddIndex" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
-        <item itemvalue="Application.KnapSack01" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +384,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29886913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29886913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -409,12 +394,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2589041" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2589041" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36301368" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36301368" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080776" side_tool="true" weight="0.38950714" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
@@ -853,6 +838,13 @@
             <element signature="e#746#747#0" expanded="true" />
             <element signature="e#782#783#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp/MinCoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
