@@ -3,51 +3,19 @@ package lrucache;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LruCache {
-    private Map<String, Node> cache = new HashMap<>();
-    private int maxSize;
-    private Node start, end = null;
-
-    public LruCache(int maxSize) {
-        this.maxSize = maxSize;
-    }
-
-    public void put(String key, String val) {
-        if (cache.containsKey(key)) {
-            Node node = cache.get(key);
-            node.value = val;
-            removeNode(node);
-            addToStart(node);
-            return;
-        }
-        //check for size
-        if (maxSize == cache.size()) {
-            //remove LRU node
-
-                removeNode(end);
-                cache.remove(end.key);
-
-
-        }
-        //addToStart
-        Node newNode = new Node();
-        newNode.key = key;
-        newNode.value = val;
-
-        addToStart(newNode);
-        cache.put(key, newNode);
-
-    }
-
-    public String get(String key) {
-        if (!cache.containsKey(key)) return null;
-        removeNode(cache.get(key));
-        addToStart(cache.get(key));
-        return cache.get(key).value;
-
-    }
+class LruCache {
+    private Map<Integer, Node> cache = new HashMap<>();
+    private int capacity;
+    private Node start, end;
+    private class Node {
+        int key;
+        int value;
+        Node previous;
+        Node next;
+    };
 
     private void addToStart(Node node) {
+        //System.out.println("Adding to the start " + node.key);
         node.next = start;
         node.previous = null;
         if (start != null) {
@@ -56,10 +24,10 @@ public class LruCache {
         start = node;
         if (end == null) end = start;
 
-
     }
 
     private void removeNode(Node node) {
+        //System.out.println("removing key " + node.key);
         if (node.previous != null) {
             node.previous.next = node.next;
         } else {
@@ -73,24 +41,49 @@ public class LruCache {
 
 
     }
+    public LruCache(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public int get(int key) {
+        if (!cache.containsKey(key)) return -1;
+        removeNode(cache.get(key));
+        addToStart(cache.get(key));
+        return cache.get(key).value;
+    }
 
 
-    public static void main(String[] args) {
-        LruCache cache = new LruCache(2);
-        cache.put("java", "8");
-        cache.put("spring", "5.0");
-        System.out.println(cache.get("java"));
-        cache.put("perl", "1.0");;
-        System.out.println(cache.get("spring"));
-        System.out.println(cache.get("java"));
-        System.out.println(cache.get("perl"));
+
+    public void put(int key, int value) {
+        //System.out.printf("inserting key %d value %d ", key, value);
+        //System.out.println();
+        if (cache.containsKey(key)) {
+            Node node = cache.get(key);
+            node.value = value;
+            removeNode(node);
+            addToStart(node);
+            return;
+        }
+        //check for size
+        if (this.capacity == cache.size()) {
+            //System.out.println("Size is over " + this.capacity);
+            //remove LRU node
+            cache.remove(end.key);
+            removeNode(end);
+
+
+
+
+        }
+        //addToStart
+        Node newNode = new Node();
+        newNode.key = key;
+        newNode.value = value;
+
+        addToStart(newNode);
+        cache.put(key, newNode);
 
     }
+
 }
 
-class Node {
-    String key;
-    String value;
-    Node previous;
-    Node next;
-}
