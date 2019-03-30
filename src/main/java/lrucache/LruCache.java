@@ -13,14 +13,21 @@ public class LruCache {
     }
 
     public void put(String key, String val) {
+        if (cache.containsKey(key)) {
+            Node node = cache.get(key);
+            node.value = val;
+            removeNode(node);
+            addToStart(node);
+            return;
+        }
         //check for size
         if (maxSize == cache.size()) {
             //remove LRU node
-            if (end != null) {
-                removeNode(cache.get(key));
+
+                removeNode(end);
                 cache.remove(end.key);
 
-            }
+
         }
         //addToStart
         Node newNode = new Node();
@@ -33,8 +40,8 @@ public class LruCache {
     }
 
     public String get(String key) {
-        if (cache.get(key) == null) return null;
-
+        if (!cache.containsKey(key)) return null;
+        removeNode(cache.get(key));
         addToStart(cache.get(key));
         return cache.get(key).value;
 
@@ -68,6 +75,17 @@ public class LruCache {
     }
 
 
+    public static void main(String[] args) {
+        LruCache cache = new LruCache(2);
+        cache.put("java", "8");
+        cache.put("spring", "5.0");
+        System.out.println(cache.get("java"));
+        cache.put("perl", "1.0");;
+        System.out.println(cache.get("spring"));
+        System.out.println(cache.get("java"));
+        System.out.println(cache.get("perl"));
+
+    }
 }
 
 class Node {
