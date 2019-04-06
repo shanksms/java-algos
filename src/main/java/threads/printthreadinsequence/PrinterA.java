@@ -14,6 +14,11 @@ public class PrinterA implements  Runnable {
                 if (resource.flag == 1) {
                     System.out.print("A");
                     resource.flag = 2;
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                     resource.notifyAll();
                 } else {
                     try {
