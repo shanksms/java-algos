@@ -24,6 +24,13 @@ import java.util.*;
 
 public class CountKMostFrequentWords {
 
+    /**
+     * Time Complexity nlogn
+     * space complexity n
+     * @param words
+     * @param k
+     * @return
+     */
     public List<String> topKFrequent(String[] words, int k) {
         Map<String, Integer> map = new HashMap<>();
         for (String word : words) {
@@ -37,5 +44,24 @@ public class CountKMostFrequentWords {
 
         return wordSet.subList(0, k);
     }
+
+    public List<String> topKFrequentUsingHeap(String[] words, int k) {
+        Map<String, Integer> map = new HashMap<>();
+        for (String word : words) {
+            map.put(word, map.getOrDefault(word, 0) + 1);
+        }
+
+        PriorityQueue<String> pq = new PriorityQueue<>((w1, w2)
+                -> map.get(w1).equals(map.get(w2)) ? w2.compareTo(w1) : map.get(w1) - map.get(w2));
+        for (String s : map.keySet()) {
+            pq.offer(s);
+            if (pq.size() > k) pq.poll();
+        }
+        List<String> ans = new ArrayList();
+        while (!pq.isEmpty()) ans.add(pq.poll());
+        Collections.reverse(ans);
+        return ans;
+    }
+
 
 }
