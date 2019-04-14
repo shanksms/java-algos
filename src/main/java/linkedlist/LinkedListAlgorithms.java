@@ -1,13 +1,11 @@
 package linkedlist;
 
-import java.util.List;
-
 public class LinkedListAlgorithms {
 
 
     public static boolean detectLoop(LinkedList llist) {
-        LinkedListNode slow = llist.getHead();
-        LinkedListNode fast = llist.getHead();
+        ListNode slow = llist.getHead();
+        ListNode fast = llist.getHead();
         while (slow != null && fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
@@ -36,10 +34,10 @@ public class LinkedListAlgorithms {
         System.out.println(detectLoop(llist));
     }
 
-    public LinkedListNode addAtASpecificPosition(int position, LinkedListNode head, int data) {
+    public ListNode addAtASpecificPosition(int position, ListNode head, int data) {
 
-        LinkedListNode node = new LinkedListNode(data);
-        LinkedListNode current = head;
+        ListNode node = new ListNode(data);
+        ListNode current = head;
         if (head == null) {
             return node;
         }
@@ -55,14 +53,14 @@ public class LinkedListAlgorithms {
 
     }
 
-    public LinkedListNode removeNthFromEnd(LinkedListNode head, int n) {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
         //Dummy node is created for edge case where we have to remove head node;
         //[1] linked list
         //1 position from end
-        LinkedListNode dummy = new LinkedListNode(0);
+        ListNode dummy = new ListNode(0);
         dummy.next = head;
-        LinkedListNode fast = dummy;
-        LinkedListNode slow = dummy;
+        ListNode fast = dummy;
+        ListNode slow = dummy;
         int i = 0;
         for (; i <= n; i++) {
             fast = fast.next;
