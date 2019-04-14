@@ -55,4 +55,8 @@ public class SearchInARotatedSortedArray {
         }
         return index;
     }
+
+    public static void main(String[] args) {
+        System.out.println(new SearchInARotatedSortedArray().search(new int[] {1, 2, 3, 4}, 4));
+    }
 }
