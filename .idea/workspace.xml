@@ -16,15 +16,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/NumberOfNodesCompleteBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -75,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bit/CountingBits.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
@@ -85,6 +76,15 @@
                 <element signature="e#1257#1258#0" expanded="true" />
                 <element signature="e#1324#1325#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ratelimiter/MinimalisticTokenBucket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="30" selection-start-line="30" selection-end-line="59" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/strings/TelephoneNumberFormatting.java" />
         <option value="$PROJECT_DIR$/src/main/java/bit/MaxNumberByCyclicRightShift.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/binarytree/LevelOrderTraversalProblem.java" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/bit/CountingBits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ratelimiter/MinimalisticTokenBucket.java" />
       </list>
     </option>
   </component>
@@ -259,39 +259,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="slidingwindow" type="462c0819:PsiDirectoryNode" />
+              <item name="ratelimiter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountingBits">
+  <component name="RunManager" selected="Application.MinimalisticTokenBucket$Selftest">
     <configuration name="CountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bit.CountingBits" />
       <module name="java-algos" />
@@ -348,12 +316,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.LongestSubstringWithoutRepeatingChar" />
+    <configuration name="MinimalisticTokenBucket$Selftest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ratelimiter.MinimalisticTokenBucket$Selftest" />
       <module name="java-algos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="ratelimiter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimalisticTokenBucket$Selftest" />
         <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.TopKFrequentElements" />
         <item itemvalue="Application.SearchInARotatedSortedArray" />
         <item itemvalue="Application.MovingAverage" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeatingChar" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +424,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2924212" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2924212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -466,12 +434,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25742576" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25742576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3592645" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3592645" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080776" side_tool="true" weight="0.38950714" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
@@ -491,17 +459,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/strings/CheckAnagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-          <folding>
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/backtracking/CombinationProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -887,6 +844,13 @@
             <element signature="e#1257#1258#0" expanded="true" />
             <element signature="e#1324#1325#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ratelimiter/MinimalisticTokenBucket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" selection-start-line="30" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
