@@ -2,7 +2,8 @@ package linkedlist;
 
 public class ListNode
 {
-    int data;
+    int val;
     ListNode next;
-    ListNode(int d) {data = d; next = null; }
+    ListNode(int d) {
+        val = d; next = null; }
 }

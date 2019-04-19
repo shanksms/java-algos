@@ -7,8 +7,8 @@ public class AddTwoNumbers {
     ListNode n = null;
     ListNode l = null;
     while (l1 != null && l2 != null) {
-      n = new ListNode((l1.data + l2.data + carry) % 10);
-      carry = (l1.data + l2.data + carry) / 10;
+      n = new ListNode((l1.val + l2.val + carry) % 10);
+      carry = (l1.val + l2.val + carry) / 10;
       curr.next = n;
       curr = n;
       l1 = l1.next; l2 = l2.next;
@@ -23,8 +23,8 @@ public class AddTwoNumbers {
     else l = l1;
 
     while (l != null) {
-      n = new ListNode((l.data + carry) % 10);
-      carry = (l.data + carry) / 10;
+      n = new ListNode((l.val + carry) % 10);
+      carry = (l.val + carry) / 10;
       curr.next = n;
       curr = n;
       l = l.next;
@@ -48,7 +48,7 @@ public class AddTwoNumbers {
     int carry = 0; int sum = 0;
     ListNode node = null;
     while (l1 != null || l2 != null || carry != 0) {
-      sum = (l1 == null ? 0 : l1.data) + (l2 == null ? 0 : l2.data) + carry;
+      sum = (l1 == null ? 0 : l1.val) + (l2 == null ? 0 : l2.val) + carry;
       node = new ListNode(sum % 10);
       current.next = node;
       current = node;
