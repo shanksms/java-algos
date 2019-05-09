@@ -37,6 +37,12 @@ public class CourseSchedule {
     List[] graph = buildGraphAdjList(numCourses,  preRequisites);
     int [] inDegree = buildInDegree(numCourses,  preRequisites);
 
+    int count = isToplogicalSortFeasible(numCourses, graph, inDegree);
+
+    return count == numCourses;
+  }
+
+  private int isToplogicalSortFeasible(int numCourses, List[] graph, int[] inDegree) {
     Queue<Integer> queue = new LinkedList<>();
     int count = 0;
     for (int i = 0; i < numCourses; i++) {
@@ -53,10 +59,7 @@ public class CourseSchedule {
       count++;
 
     }
-
-
-
-    return count == numCourses;
+    return count;
   }
 
   private int[] buildInDegree(int numCourses, int[][] preRequisites) {
