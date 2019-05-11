@@ -5,12 +5,12 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.*;
 
-public class RootToLeadSumBinaryNumberTest {
-  private RootToLeadSumBinaryNumber rootToLeadSumBinaryNumber;
+public class RootToLeafumBinaryNumberTest {
+  private RootToLeafumBinaryNumber rootToLeafumBinaryNumber;
 
   @Before
   public void setUp() throws Exception {
-    rootToLeadSumBinaryNumber = new RootToLeadSumBinaryNumber();
+    rootToLeafumBinaryNumber = new RootToLeafumBinaryNumber();
   }
 
   @Test
@@ -20,7 +20,7 @@ public class RootToLeadSumBinaryNumberTest {
     TreeNode<Integer> right = new TreeNode<>(1);
     root.left = left;
     root.right = right;
-    assertThat(rootToLeadSumBinaryNumber.rootToLeafSum(root), equalTo(5));
+    assertThat(rootToLeafumBinaryNumber.rootToLeafSum(root), equalTo(5));
 
   }
 }

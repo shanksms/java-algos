@@ -1,6 +1,6 @@
 package binarytree;
 
-public class RootToLeadSumBinaryNumber {
+public class RootToLeafumBinaryNumber {
   public int rootToLeafSum(TreeNode<Integer> root) {
 
     return helper(root, 0);

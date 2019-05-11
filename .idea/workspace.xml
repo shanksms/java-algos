@@ -16,28 +16,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Maths/ReverseInteger.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/RootToLeafumBinaryNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/RootToLeadSumBinaryNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/IterativeInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="143">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/binarytree/RootToLeadSumBinaryNumberTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/binarytree/IterativeInorderTraversalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="408">
+              <caret line="24" column="103" selection-start-line="24" selection-start-column="103" selection-end-line="24" selection-end-column="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/binarytree/RootToLeafumBinaryNumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="73" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="22" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +77,14 @@
         <option value="$PROJECT_DIR$/src/main/java/graph/CourseSchedule2.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/Maths/ReverseInteger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeadSumBinaryNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/binarytree/RootToLeadSumBinaryNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeadSumBinaryNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeadfumBinaryNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeafumBinaryNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binarytree/HasPathSum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/binarytree/HasPathSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binarytree/IterativeInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/binarytree/IterativeInorderTraversalTest.java" />
       </list>
     </option>
   </component>
@@ -106,6 +127,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="binarytree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
@@ -163,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RootToLeadSumBinaryNumberTest.rootToLeafSum">
+  <component name="RunManager" selected="JUnit.IterativeInorderTraversalTest.iterativeInorderTraversal">
     <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Maths.ReverseInteger" />
       <module name="java-algos" />
@@ -190,7 +219,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RootToLeadSumBinaryNumberTest.rootToLeafSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HasPathSumTest.hasPathSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algos" />
       <extension name="coverage">
         <pattern>
@@ -199,7 +228,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="binarytree" />
-      <option name="MAIN_CLASS_NAME" value="binarytree.RootToLeadSumBinaryNumberTest" />
+      <option name="MAIN_CLASS_NAME" value="binarytree.HasPathSumTest" />
+      <option name="METHOD_NAME" value="hasPathSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IterativeInorderTraversalTest.iterativeInorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="binarytree" />
+      <option name="MAIN_CLASS_NAME" value="binarytree.IterativeInorderTraversalTest" />
+      <option name="METHOD_NAME" value="iterativeInorderTraversal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RootToLeafumBinaryNumberTest.rootToLeafSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="binarytree" />
+      <option name="MAIN_CLASS_NAME" value="binarytree.RootToLeafumBinaryNumberTest" />
       <option name="METHOD_NAME" value="rootToLeafSum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -208,7 +269,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RootToLeadSumBinaryNumberTest.rootToLeafSum" />
+        <item itemvalue="JUnit.IterativeInorderTraversalTest.iterativeInorderTraversal" />
+        <item itemvalue="JUnit.HasPathSumTest.hasPathSum" />
+        <item itemvalue="JUnit.RootToLeafumBinaryNumberTest.rootToLeafSum" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.Trust" />
       </list>
@@ -227,6 +290,17 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RootToLeadSumBinaryNumberTest_rootToLeafSum - 2019.05.11 at 11h 53m 20s.xml">
+      <configuration name="RootToLeadSumBinaryNumberTest.rootToLeafSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HasPathSumTest_hasPathSum - 2019.05.11 at 12h 37m 48s.xml">
+      <configuration name="HasPathSumTest.hasPathSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HasPathSumTest_hasPathSum - 2019.05.11 at 12h 38m 14s.xml">
+      <configuration name="HasPathSumTest.hasPathSum" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
@@ -241,7 +315,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25584796" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25584796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/RootToLeafSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="36" column="3" selection-start-line="2" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Maths/ReverseInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -404,17 +471,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/RootToLeadSumBinaryNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/HasPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="38" />
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/binarytree/RootToLeadSumBinaryNumberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/binarytree/HasPathSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="425">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/RootToLeafSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="3" selection-start-line="2" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/RootToLeafumBinaryNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/IterativeInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/binarytree/RootToLeafumBinaryNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="73" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="22" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/binarytree/IterativeInorderTraversalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="103" selection-start-line="24" selection-start-column="103" selection-end-line="24" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
