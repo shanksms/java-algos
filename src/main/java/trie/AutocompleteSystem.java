@@ -137,4 +137,10 @@ public class AutocompleteSystem {
     }
     return res;
   }
+
+  public static void main(String[] args) {
+    String [] words = {"i love you", "island","ironman", "i love leetcode"};
+    int [] counts = {5,3,2,2};
+    new AutocompleteSystem(words, counts);
+  }
 }

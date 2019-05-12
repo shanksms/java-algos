@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/trie/AutocompleteSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+            <state relative-caret-position="503">
+              <caret line="143" column="40" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1811#1819#0" expanded="true" />
@@ -192,7 +192,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FixedWindowCounter">
+  <component name="RunManager" selected="Application.AutocompleteSystem">
+    <configuration name="AutocompleteSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trie.AutocompleteSystem" />
+      <module name="java-algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FixedWindowCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ratelimiter.FixedWindowCounter" />
       <module name="java-algos" />
@@ -232,22 +245,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasPathSumTest.hasPathSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="binarytree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="binarytree" />
-      <option name="MAIN_CLASS_NAME" value="binarytree.HasPathSumTest" />
-      <option name="METHOD_NAME" value="hasPathSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IterativeInorderTraversalTest.iterativeInorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algos" />
       <extension name="coverage">
@@ -266,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutocompleteSystem" />
         <item itemvalue="Application.FixedWindowCounter" />
         <item itemvalue="Application.TokenBucket" />
         <item itemvalue="Application.TestThreadPool" />
         <item itemvalue="JUnit.IterativeInorderTraversalTest.iterativeInorderTraversal" />
-        <item itemvalue="JUnit.HasPathSumTest.hasPathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -373,6 +370,12 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/trie/AutocompleteSystem.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -699,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trie/AutocompleteSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+        <state relative-caret-position="503">
+          <caret line="143" column="40" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1811#1819#0" expanded="true" />
