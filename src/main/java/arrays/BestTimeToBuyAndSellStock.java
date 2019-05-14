@@ -24,8 +24,8 @@ public class BestTimeToBuyAndSellStock {
         int maxProfit = 0;
         if (prices.length == 0) return maxProfit;
 
-        int minSeenSoFar = prices[0];
-        for (int i = 1; i < prices.length; i++) {
+        int minSeenSoFar = Integer.MAX_VALUE;
+        for (int i = 0; i < prices.length; i++) {
 
             minSeenSoFar = Integer.min(minSeenSoFar, prices[i]);
 
@@ -37,4 +37,6 @@ public class BestTimeToBuyAndSellStock {
 
 
     }
+
+
 }
