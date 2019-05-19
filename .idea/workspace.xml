@@ -36,9 +36,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/handy-coding-tricks.txt">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/InsertIntoBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/SearchBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="136" selection-start-line="22" selection-start-column="136" selection-end-line="22" selection-end-column="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -67,8 +94,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,9 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeadSumBinaryNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeadfumBinaryNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeafumBinaryNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/binarytree/HasPathSum.java" />
         <option value="$PROJECT_DIR$/src/test/java/binarytree/HasPathSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/binarytree/IterativeInorderTraversal.java" />
@@ -137,6 +161,9 @@
         <option value="$PROJECT_DIR$/src/main/java/binarytree/DeleteNodeInBST.java" />
         <option value="$PROJECT_DIR$/src/test/java/graph/AlienDictionaryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/graph/AlienDictionary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binarytree/InsertIntoBST.java" />
+        <option value="$PROJECT_DIR$/src/test/java/binarytree/InsertIntoBSTTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binarytree/SearchBST.java" />
       </list>
     </option>
   </component>
@@ -176,6 +203,21 @@
               <item name="java-algos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="binarytree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,11 +249,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="binarytree" />
       <recent name="graph" />
       <recent name="greedy" />
       <recent name="recursion" />
       <recent name="arrays" />
-      <recent name="binarytree" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -232,20 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AlienDictionaryTest">
-    <configuration name="TwoCityScheduling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.TwoCityScheduling" />
-      <module name="java-algos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in java-algos">
     <configuration name="AlienDictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algos" />
       <extension name="coverage">
@@ -277,17 +306,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStringTest.reverseString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in java-algos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algos" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertIntoBSTTest.insertIntoBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="recursion" />
-      <option name="MAIN_CLASS_NAME" value="recursion.ReverseStringTest" />
-      <option name="METHOD_NAME" value="reverseString" />
+      <option name="PACKAGE_NAME" value="binarytree" />
+      <option name="MAIN_CLASS_NAME" value="binarytree.InsertIntoBSTTest" />
+      <option name="METHOD_NAME" value="insertIntoBST" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -310,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in java-algos" />
+        <item itemvalue="JUnit.InsertIntoBSTTest.insertIntoBST" />
         <item itemvalue="JUnit.AlienDictionaryTest" />
         <item itemvalue="JUnit.AlienDictionaryTest.alienOrder" />
         <item itemvalue="JUnit.TwoCitySchedulingTest" />
-        <item itemvalue="Application.TwoCityScheduling" />
-        <item itemvalue="JUnit.ReverseStringTest.reverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -332,12 +369,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwoCitySchedulingTest - 2019.05.18 at 19h 22m 31s.xml">
-      <configuration name="TwoCitySchedulingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlienDictionaryTest_alienOrder - 2019.05.19 at 11h 31m 45s.xml">
-      <configuration name="AlienDictionaryTest.alienOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AlienDictionaryTest_alienOrder - 2019.05.19 at 11h 32m 55s.xml">
       <configuration name="AlienDictionaryTest.alienOrder" configurationId="JUnit" />
     </history-entry>
@@ -362,6 +393,12 @@
     <history-entry file="AlienDictionaryTest - 2019.05.19 at 11h 50m 03s.xml">
       <configuration name="AlienDictionaryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InsertIntoBSTTest_insertIntoBST - 2019.05.19 at 13h 48m 13s.xml">
+      <configuration name="InsertIntoBSTTest.insertIntoBST" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertIntoBSTTest_insertIntoBST - 2019.05.19 at 13h 48m 30s.xml">
+      <configuration name="InsertIntoBSTTest.insertIntoBST" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -377,7 +414,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25584796" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25584796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,27 +496,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/KthSmallestElementFromBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/LCA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/LCAOfBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/LevelOrderTraversalProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
@@ -512,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -845,6 +854,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/handy-coding-tricks.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/binarytree/InsertIntoBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/InsertIntoBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/SearchBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="136" selection-start-line="22" selection-start-column="136" selection-end-line="22" selection-end-column="136" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

@@ -15,6 +15,8 @@ public class AlienDictionaryTest {
 
   @Test
   public void alienOrder() {
-    MatcherAssert.assertThat(alienDictionary.alienOrder(new String[] {"ri","xz","qxf","jhsguaw","dztqrbwbm","dhdqfb","jdv","fcgfsilnb","ooby"}), CoreMatchers.equalTo("we"));
+    MatcherAssert.assertThat(alienDictionary.alienOrder(new String[] {"ri","xz","qxf","jhsguaw","dztqrbwbm","dhdqfb","jdv","fcgfsilnb","ooby"}), CoreMatchers.equalTo(""));
+    MatcherAssert.assertThat(alienDictionary.alienOrder(new String[] {"w", "e"}), CoreMatchers.equalTo("we"));
+
   }
 }
