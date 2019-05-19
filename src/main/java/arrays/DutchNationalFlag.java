@@ -16,6 +16,8 @@ package arrays;
  * A rather straight forward solution is a two-pass algorithm using counting sort.
  * First, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.
  * Could you come up with a one-pass algorithm using only constant space?
+ * https://leetcode.com/problems/sort-colors/solution/
+ *
  */
 public class DutchNationalFlag {
     public void sortColors_ApproachOne(int[] nums) {
@@ -41,6 +43,29 @@ public class DutchNationalFlag {
                 twos--;
             }
             i++;
+        }
+    }
+
+    /**
+     * one pass solution
+     * @param nums
+     */
+    public void sortColors(int[] nums) {
+        int i = 0;
+        int j = nums.length - 1;
+        int c = 0;
+        while (c <= j) {
+            if (nums[c] == 0) {
+                int tmp = nums[c];
+                nums[c++] = nums[i];
+                nums[i++] = tmp;
+            } else if (nums[c] == 2) {
+                int tmp = nums[c];
+                nums[c] = nums[j];
+                nums[j--] = tmp;
+            } else {
+                c++;
+            }
         }
     }
 }

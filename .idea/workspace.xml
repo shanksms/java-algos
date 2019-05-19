@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/heap/MedianFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="254">
+              <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/arrays/DutchNationalFlag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="313">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -172,6 +172,14 @@
               <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-algos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-algos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RightSideViewTest.rightSideView_ApproachOne">
+  <component name="RunManager" selected="JUnit.DutchNationalFlagTest.sortColors">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="misc.FizzBuzz" />
       <module name="java-algos" />
@@ -254,25 +262,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlienDictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="graph" />
-      <option name="MAIN_CLASS_NAME" value="graph.AlienDictionaryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in java-algos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algos" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DutchNationalFlagTest.sortColors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrays" />
+      <option name="MAIN_CLASS_NAME" value="arrays.DutchNationalFlagTest" />
+      <option name="METHOD_NAME" value="sortColors" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DutchNationalFlagTest.sortColors" />
         <item itemvalue="JUnit.RightSideViewTest.rightSideView_ApproachOne" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="JUnit.All in java-algos" />
         <item itemvalue="JUnit.InsertIntoBSTTest.insertIntoBST" />
-        <item itemvalue="JUnit.AlienDictionaryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -365,10 +374,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2481556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2481556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -432,7 +441,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/graph/Trust.java</url>
           <line>62</line>
-          <properties class="graph.Trust">
+          <properties class="graph.Trust" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
@@ -843,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heap/MedianFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="254">
+          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -853,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arrays/DutchNationalFlag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="313">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
         </state>
       </provider>
     </entry>
