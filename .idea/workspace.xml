@@ -15,11 +15,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/recursion/ReverseString.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/DeleteNodeInBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="663">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/graph/AlienDictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="51" column="80" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/graph/AlienDictionaryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/graph/CourseSchedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-639">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -29,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -38,6 +71,7 @@
     <findStrings>
       <find>[</find>
       <find>]</find>
+      <find>getOrDefault</find>
     </findStrings>
     <replaceStrings>
       <replace>{</replace>
@@ -47,11 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/graph/CourseSchedule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/graph/CourseSchedule2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/linkedlist/PlusOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Maths/ReverseInteger.java" />
-        <option value="$PROJECT_DIR$/src/test/java/binarytree/RootToLeadSumBinaryNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeadSumBinaryNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeadfumBinaryNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/binarytree/RootToLeafumBinaryNumber.java" />
@@ -96,7 +125,13 @@
         <option value="$PROJECT_DIR$/src/test/java/recursion/MultiplyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/recursion/GCDTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion/GCD.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursion/ReverseStringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion/ReverseString.java" />
+        <option value="$PROJECT_DIR$/src/test/java/greedy/TwoCitySchedulingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/greedy/TwoCityScheduling.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binarytree/DeleteNodeInBST.java" />
+        <option value="$PROJECT_DIR$/src/test/java/graph/AlienDictionaryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/graph/AlienDictionary.java" />
       </list>
     </option>
   </component>
@@ -144,7 +179,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algos" type="b2602c69:ProjectViewProjectNode" />
@@ -175,6 +210,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="graph" />
+      <recent name="greedy" />
       <recent name="recursion" />
       <recent name="arrays" />
       <recent name="binarytree" />
@@ -198,50 +235,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseStringTest.reverseString">
-    <configuration name="FactorialTest.fact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AlienDictionaryTest">
+    <configuration name="TwoCityScheduling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.TwoCityScheduling" />
       <module name="java-algos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="recursion" />
-      <option name="MAIN_CLASS_NAME" value="recursion.FactorialTest" />
-      <option name="METHOD_NAME" value="fact" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDTest.gcdRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlienDictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="recursion" />
-      <option name="MAIN_CLASS_NAME" value="recursion.GCDTest" />
-      <option name="METHOD_NAME" value="gcdRecursive" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="graph" />
+      <option name="MAIN_CLASS_NAME" value="graph.AlienDictionaryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyTest.multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlienDictionaryTest.alienOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="recursion" />
-      <option name="MAIN_CLASS_NAME" value="recursion.MultiplyTest" />
-      <option name="METHOD_NAME" value="multiply" />
+      <option name="PACKAGE_NAME" value="graph" />
+      <option name="MAIN_CLASS_NAME" value="graph.AlienDictionaryTest" />
+      <option name="METHOD_NAME" value="alienOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -263,29 +296,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfNaturalNumbersTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoCitySchedulingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="recursion" />
-      <option name="MAIN_CLASS_NAME" value="recursion.SumOfNaturalNumbersTest" />
-      <option name="METHOD_NAME" value="sum" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="greedy" />
+      <option name="MAIN_CLASS_NAME" value="greedy.TwoCitySchedulingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlienDictionaryTest" />
+        <item itemvalue="JUnit.AlienDictionaryTest.alienOrder" />
+        <item itemvalue="JUnit.TwoCitySchedulingTest" />
+        <item itemvalue="Application.TwoCityScheduling" />
         <item itemvalue="JUnit.ReverseStringTest.reverseString" />
-        <item itemvalue="JUnit.GCDTest.gcdRecursive" />
-        <item itemvalue="JUnit.MultiplyTest.multiply" />
-        <item itemvalue="JUnit.SumOfNaturalNumbersTest.sum" />
-        <item itemvalue="JUnit.FactorialTest.fact" />
       </list>
     </recent_temporary>
   </component>
@@ -303,42 +335,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstAndLastPositionInSortedArrayTest_searchRange_numberDoesExist - 2019.05.17 at 22h 30m 10s.xml">
-      <configuration name="FirstAndLastPositionInSortedArrayTest.searchRange_numberDoesExist" configurationId="JUnit" />
+    <history-entry file="TwoCitySchedulingTest - 2019.05.18 at 19h 22m 31s.xml">
+      <configuration name="TwoCitySchedulingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstAndLastPositionInSortedArrayTest - 2019.05.17 at 22h 30m 15s.xml">
-      <configuration name="FirstAndLastPositionInSortedArrayTest" configurationId="JUnit" />
+    <history-entry file="AlienDictionaryTest_alienOrder - 2019.05.19 at 11h 31m 45s.xml">
+      <configuration name="AlienDictionaryTest.alienOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstAndLastPositionInSortedArrayTest - 2019.05.17 at 22h 36m 16s.xml">
-      <configuration name="FirstAndLastPositionInSortedArrayTest" configurationId="JUnit" />
+    <history-entry file="AlienDictionaryTest_alienOrder - 2019.05.19 at 11h 32m 55s.xml">
+      <configuration name="AlienDictionaryTest.alienOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest_fact - 2019.05.18 at 10h 46m 43s.xml">
-      <configuration name="FactorialTest.fact" configurationId="JUnit" />
+    <history-entry file="AlienDictionaryTest - 2019.05.19 at 11h 35m 41s.xml">
+      <configuration name="AlienDictionaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest_fact - 2019.05.18 at 10h 47m 04s.xml">
-      <configuration name="FactorialTest.fact" configurationId="JUnit" />
+    <history-entry file="AlienDictionaryTest - 2019.05.19 at 11h 40m 11s.xml">
+      <configuration name="AlienDictionaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumOfNaturalNumbersTest_sum - 2019.05.18 at 11h 07m 45s.xml">
-      <configuration name="SumOfNaturalNumbersTest.sum" configurationId="JUnit" />
+    <history-entry file="AlienDictionaryTest - 2019.05.19 at 11h 42m 15s.xml">
+      <configuration name="AlienDictionaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiplyTest_multiply - 2019.05.18 at 11h 18m 16s.xml">
-      <configuration name="MultiplyTest.multiply" configurationId="JUnit" />
+    <history-entry file="AlienDictionaryTest - 2019.05.19 at 11h 44m 35s.xml">
+      <configuration name="AlienDictionaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiplyTest_multiply - 2019.05.18 at 11h 18m 35s.xml">
-      <configuration name="MultiplyTest.multiply" configurationId="JUnit" />
+    <history-entry file="AlienDictionaryTest - 2019.05.19 at 11h 47m 06s.xml">
+      <configuration name="AlienDictionaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GCDTest_gcdRecursive - 2019.05.18 at 11h 28m 51s.xml">
-      <configuration name="GCDTest.gcdRecursive" configurationId="JUnit" />
+    <history-entry file="AlienDictionaryTest - 2019.05.19 at 11h 47m 23s.xml">
+      <configuration name="AlienDictionaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GCDTest_gcdRecursive - 2019.05.18 at 11h 29m 58s.xml">
-      <configuration name="GCDTest.gcdRecursive" configurationId="JUnit" />
+    <history-entry file="AlienDictionaryTest - 2019.05.19 at 11h 50m 03s.xml">
+      <configuration name="AlienDictionaryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24480215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2481556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -348,7 +380,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25584796" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25584796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -367,7 +399,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23474178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2481556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,6 +445,16 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>graph.get(node)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>graph.getOrDefault(words[i].charAt(index), new ArrayList&lt;&gt;())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>next</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -420,51 +462,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/SpiralMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/SubarraySumEquals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/BinaryTreeAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backtracking/CombinationProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/ConvertSortedArrayToBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/HasPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/IterativeInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -594,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/graph/CourseSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/graph/GraphTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -678,13 +668,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -795,10 +778,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursion/ReverseStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/recursion/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/greedy/TwoCityScheduling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/greedy/TwoCitySchedulingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="96" selection-start-line="23" selection-start-column="96" selection-end-line="23" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binarytree/DeleteNodeInBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/graph/CourseSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/graph/AlienDictionaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/graph/AlienDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="51" column="80" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
