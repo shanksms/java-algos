@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a26641a9-fb98-419a-b87e-1c42f2c5db5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/handy-coding-tricks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/handy-coding-tricks.txt" afterDir="false" />
-    </list>
+    <list default="true" id="a26641a9-fb98-419a-b87e-1c42f2c5db5d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/graph/GraphAValidTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+            <state relative-caret-position="298">
+              <caret line="41" column="5" selection-start-line="23" selection-start-column="3" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -253,7 +251,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558583357878" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558583376919" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -431,7 +429,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14424635" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28038898" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080776" side_tool="true" weight="0.38950714" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32748538" />
@@ -909,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/graph/GraphAValidTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+        <state relative-caret-position="298">
+          <caret line="41" column="5" selection-start-line="23" selection-start-column="3" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>

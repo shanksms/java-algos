@@ -25,11 +25,13 @@ public class GraphAValidTree {
         int [] islands = new int[n];
         Arrays.fill(islands, -1);
 
-        for (int [] edge : edges) {
-            int x = find(islands, edge[0]);
-            int y = find(islands, edge[1]);
+        for (int i = 0; i < edges.length; i++) {
+            int x = find(islands, edges[i][0]);
+            int y = find(islands, edges[i][1]);
             //if x == y, then cycle is found
             if (x == y) return false;
+            //union
+            islands[x] = y;
         }
 
         //a graph is a tree if it does not contain any cycle and subject to below condition
