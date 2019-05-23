@@ -1,6 +1,7 @@
 package graph;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -57,8 +58,7 @@ public class GraphConnectedComponents {
 
   public int countComponentsUnionFind(int n, int[][] edges) {
     int[] roots = new int[n];
-    for(int i = 0; i < n; i++) roots[i] = i;
-
+    Arrays.fill(roots, -1);
     for(int[] e : edges) {
       int root1 = find(roots, e[0]);
       int root2 = find(roots, e[1]);
@@ -71,11 +71,8 @@ public class GraphConnectedComponents {
   }
 
   public int find(int[] roots, int id) {
-    while(roots[id] != id) {
-      roots[id] = roots[roots[id]];  // optional: path compression
-      id = roots[id];
-    }
-    return id;
+    if (roots[id] == -1) return id;
+    return find(roots, roots[id]);
   }
 
 }
