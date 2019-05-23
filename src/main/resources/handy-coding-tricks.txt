@@ -1,0 +1,5 @@
+####################Initiallizing an array with default values################
+int[] nums = new int[n];
+Arrays.fill(nums, -1);
+##############################################################################
+
