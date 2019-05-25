@@ -17,6 +17,33 @@ package dp;
  * Output: 12
  * Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
  *              Total amount you can rob = 2 + 9 + 1 = 12.
+ *
+ *              Algorithm
+ *
+ * It could be overwhelming thinking of all possibilities on which houses to rob.
+ *
+ * A natural way to approach this problem is to work on the simplest case first.
+ *
+ * Let us denote that:
+ *
+ * f(k) = Largest amount that you can rob from the first k houses.
+ * Ai = Amount of money at the ith house.
+ *
+ * Let us look at the case n = 1, clearly f(1) = A1.
+ *
+ * Now, let us look at n = 2, which f(2) = max(A1, A2).
+ *
+ * For n = 3, you have basically the following two options:
+ *
+ * Rob the third house, and add its amount to the first house's amount.
+ *
+ * Do not rob the third house, and stick with the maximum amount of the first two houses.
+ *
+ * Clearly, you would want to choose the larger of the two options at each step.
+ *
+ * Therefore, we could summarize the formula as following:
+ *
+ * f(k) = max(f(k – 2) + Ak, f(k – 1))
  */
 public class HouseRobber {
   public int rob(int[] nums) {
@@ -30,6 +57,22 @@ public class HouseRobber {
     }
 
     return result[nums.length - 1];
+  }
+
+  /**
+   * we just need last 2 maximum values to calculate current max value;
+   *
+   * @param nums
+   * @return
+   */
+  public int rob_anotherSolution(int[] nums) {
+    int prevMax = 0; int currMax = 0;
+    for (int num : nums) {
+      int tmp = prevMax;
+      currMax = Math.max(currMax, num + prevMax);
+      prevMax = currMax;
+    }
+    return currMax;
   }
 
 
