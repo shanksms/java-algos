@@ -1,0 +1,12 @@
+###########################################Problem Statement###############################################
+there are two files. One file contains employee information.
+emp_id, emp_name
+second file contains employee transactions.
+emp_id, trans_id, trans_amount
+
+second file is huge and can not be loaded in memory at one go.
+print employee name and total transaction amount as follows:
+Emp_name, Total_Transaction
+Shashank, 10000
+Mahesh, 20000
+
