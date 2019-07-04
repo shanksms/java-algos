@@ -5,10 +5,11 @@ import com.google.common.base.Preconditions;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
+import java.util.Queue;
 
 public class QueueWithMax  <T extends Comparable<T>> {
 
-  private LinkedList<T> queue;
+  private Queue<T> queue;
   private Deque<T> maxCandidates;
 
   public QueueWithMax(LinkedList<T> queue, Deque<T> maxCandidates) {

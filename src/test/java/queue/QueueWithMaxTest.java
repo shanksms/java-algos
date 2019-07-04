@@ -14,7 +14,7 @@ public class QueueWithMaxTest {
 
   @Before
   public void setUp() throws Exception {
-    queue = new QueueWithMax<Integer>(new LinkedList<>(), new ArrayDeque<>());
+    queue = new QueueWithMax<Integer>(new LinkedList<>(), new LinkedList<>());
   }
 
   @Test
