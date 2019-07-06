@@ -33,6 +33,15 @@ public class MissingNumber {
 
 
     }
+
+    public int missingNumberMathApproach(int [] nums) {
+
+        int n = nums.length;
+        int sum1 = Arrays.stream(nums).sum();
+        int sum2 = (n * (n + 1))/ 2;
+
+        return sum2 - sum1;
+    }
     /*
     * Algorithm
 

@@ -32,4 +32,12 @@ public class ArraySearchAlgorithmsTest {
         .equalTo(expected));
   }
 
+  @Test
+  public void integerSquareRoot() {
+    int num = 21;
+    int expected = 5;
+    MatcherAssert.assertThat(arraySearchAlgorithms.integerSquareRoot(num), CoreMatchers
+        .equalTo(expected));
+  }
+
 }

@@ -52,4 +52,17 @@ public class ArraySearchAlgorithms {
     return left;
 
   }
+
+  public int integerSquareRoot(int num) {
+    int left = 0; int right = num;
+    //The loop will break when left == right
+    while(left < right) {
+      int mid = left + (right - left) / 2;
+      int midSquared = mid * mid;
+      if (midSquared == num ) return mid;
+      else if (midSquared > num) right = mid;
+      else  left = mid + 1;
+    }
+    return left;
+  }
 }
