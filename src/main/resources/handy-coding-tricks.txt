@@ -38,4 +38,27 @@ Arrays.sort(a, (e1, e2) -> e1[0] - e2[0]);
 Arrays.sort(a, Comparator.comparingInt(e -> e[0]));
 ################################################################################
 
+##########################################################################
+Array Copy
+System.arraycopy(src,0,dest,0,src.length);
 
+##########################################################################
+
+################################################################################
+Ascii value ranges
+for lower case alphabets: 97 - 122
+for upper case alphabets: 65 - 90
+for numbers: 48 - 57
+https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+
+'A' - 'A' == 0
+'B' - 'A' == 1
+'A' + 1 == 'B'
+################################################################################
+program to check if all the elements of an array are 0
+
+int [] arr = new int[5];
+boolean result = Arrays.stream().allMatch(e -> e == 0);
+result will be false if there is even one non zero element
+
+################################################################################
