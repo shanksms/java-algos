@@ -27,6 +27,7 @@ public class Codec {
     }
 
     public static void main(String[] args) {
-        System.out.println("print" + new Codec().encode(new ArrayList<String>()).isEmpty());
+        System.out.println(Arrays.toString("".split(" # ")));
     }
+
 }

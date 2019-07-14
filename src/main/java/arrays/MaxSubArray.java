@@ -37,4 +37,22 @@ public class MaxSubArray {
         //System.out.println(maxSubArrayKdane(new int[] {-2,1,-3,4,-1,2,1,-5,4}));
         System.out.println(maxSubArrayDynamicArray(new int[] {-2,1,-3,4,-1,2,1,-5,4}));
     }
+
+    public int numSubarrayProductLessThanK(int[] nums, int k) {
+        int n = nums.length;
+        long p = 1L;
+        int i = 0;
+        int j = 0;
+        int total = 0;
+        while(j < n){
+            p *= nums[j];
+            while(i <= j&&p >= k){
+                p /= nums[i];
+                i++;
+            }
+            total += (j - i + 1);
+            j++;
+        }
+        return total;
+    }
 }

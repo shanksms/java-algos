@@ -46,6 +46,16 @@ import java.util.Arrays;
  * Version strings do not start or end with dots, and they will not be two consecutive dots.
  */
 public class FileVersions {
+
+    /**
+     * split both the strings.
+     * take the length of the longer array which is generated after  splitting the strings
+     * traverse both arrays in a single loop. loop will run from 0 to the length of longer string
+     * now compare versions one by one.
+     * @param version1
+     * @param version2
+     * @return
+     */
     public int compareVersion(String version1, String version2) {
         String[] levels1 = version1.split("\\.");
         String[] levels2 = version2.split("\\.");

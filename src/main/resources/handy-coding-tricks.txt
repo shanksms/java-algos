@@ -62,3 +62,15 @@ boolean result = Arrays.stream().allMatch(e -> e == 0);
 result will be false if there is even one non zero element
 
 ################################################################################
+split a string separated by .
+        String[] arr = string.split("\\.");
+###############################################################################
+Some times, you might need to append an extra character in a string or an extra node in a Linked list
+this is needed when you compare two adjacent chars or nodes.
+check the example of run length encoding problem
+################################################################################
+if you have an integer in character form, you can convert that as following
+ string.charAt(i) - '0';
+Character.isDigit(ch) returns true if ch is a digit. e,g, '0', '1' etc
+
+

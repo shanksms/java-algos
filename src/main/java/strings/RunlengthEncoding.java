@@ -32,7 +32,7 @@ public class RunlengthEncoding {
             if (newStr.charAt(i) == newStr.charAt(i + 1)) {
                 count++;
             } else {
-                builder.append(count  + "" + (char)newStr.charAt(i));
+                builder.append(count  + "" + newStr.charAt(i));
                 count = 1;
             }
         }
