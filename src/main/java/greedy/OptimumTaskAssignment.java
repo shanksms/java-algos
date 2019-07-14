@@ -9,6 +9,7 @@ import java.util.List;
  * total time to complete all the tasks can be minimized.
  * e.g. input = [5, 2, 1, 6, 4, 4]
  * optimum assigmnent = (1, 6), (2, 5), (4, 4)
+ *  * refer to greedy algo chapter of EPI
  */
 public class OptimumTaskAssignment {
 

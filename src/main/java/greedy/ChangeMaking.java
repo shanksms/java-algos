@@ -3,6 +3,7 @@ package greedy;
 /**
  * US currency can take 1, 5, 10, 25, 50, 100 cents
  * given cents value as input, return number of coins.
+ *  * refer to greedy algo chapter of EPI
  */
 public class ChangeMaking {
 
