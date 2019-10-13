@@ -1,9 +1,6 @@
 package Maths;
 
-/**
- * https://www.youtube.com/watch?time_continue=1457&v=LPFhl65R7ww
- *
- */
+
 public class MedianOfTwoSortedArrays {
 
   public double findMedianSortedArrays(int[] A, int[] B) {
