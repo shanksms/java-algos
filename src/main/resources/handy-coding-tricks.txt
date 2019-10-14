@@ -79,3 +79,7 @@ Character.isDigit(ch) returns true if ch is a digit. e,g, '0', '1' etc
       split1 = {let1, art can};
 ###############################################################################
 
+##############################################################################
+Collections.binarySearch() returns index of the element if found otherwise it returns
+-indexWhereItemShouldBeInserted -1
+##############################################################################
