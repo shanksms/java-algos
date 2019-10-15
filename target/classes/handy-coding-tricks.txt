@@ -73,4 +73,13 @@ if you have an integer in character form, you can convert that as following
  string.charAt(i) - '0';
 Character.isDigit(ch) returns true if ch is a digit. e,g, '0', '1' etc
 
+###############################################################################
 
+      String[] split1 = "let1 art can".split(" ", 2);
+      split1 = {let1, art can};
+###############################################################################
+
+##############################################################################
+Collections.binarySearch() returns index of the element if found otherwise it returns
+-indexWhereItemShouldBeInserted -1
+##############################################################################
