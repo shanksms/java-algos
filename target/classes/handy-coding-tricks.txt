@@ -83,3 +83,9 @@ Character.isDigit(ch) returns true if ch is a digit. e,g, '0', '1' etc
 Collections.binarySearch() returns index of the element if found otherwise it returns
 -indexWhereItemShouldBeInserted -1
 ##############################################################################
+
+##############################################################################
+converting a list of arrays to 2d arrays
+output.toArray(new int[output.size()][])
+output is a list
+##############################################################################
