@@ -24,7 +24,7 @@ public class Sqrt {
 
     long num;
     int pivot, left = 2, right = x / 2;
-    while (left < right) {
+    while (left <= right) {
       pivot = left + (right - left) / 2;
       num = (long)pivot * pivot;
       if (num > x) right = pivot;
@@ -32,7 +32,7 @@ public class Sqrt {
       else return pivot;
     }
 
-    return left;
+    return right;
   }
 
 }
