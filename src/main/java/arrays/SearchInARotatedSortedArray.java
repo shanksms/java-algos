@@ -55,6 +55,31 @@ public class SearchInARotatedSortedArray {
         }
         return index;
     }
+    public int searchBetterAlgo(int[] nums, int target) {
+        int start = 0; int end = nums.length - 1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            System.out.println(start);
+            System.out.println(end);
+            System.out.println(mid);
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] >= nums[start]) {
+                if (nums[mid] > target && target >= nums[start]) {
+                    end = mid - 1;
+                } else {
+                    start = mid + 1;
+                }
+            } else {
+                if (nums[mid] < target && target <= nums[end] ) {
+                    start = mid + 1;
+                } else {
+                    end = mid - 1;
+                }
+            }
+        }
+        return -1;
+    }
 
     public static void main(String[] args) {
         System.out.println(new SearchInARotatedSortedArray().search(new int[] {1, 2, 3, 4}, 4));
