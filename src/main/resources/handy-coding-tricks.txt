@@ -89,3 +89,9 @@ converting a list of arrays to 2d arrays
 output.toArray(new int[output.size()][])
 output is a list
 ##############################################################################
+
+##############################################################################
+
+when asked to find K largest elements, use max heap
+when asked to find Kth largest element, use min heap
+#############################################################################
