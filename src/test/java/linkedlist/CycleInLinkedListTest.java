@@ -31,6 +31,13 @@ public class CycleInLinkedListTest {
 
   @Test
   public void lengthOfCycle() {
+    /**
+     * 1 --> 2 --
+     * |         |
+     * |         |
+     *  ---------
+     *  here length of cycle is 2
+     */
     ListNode head =  new ListNode(1);
     ListNode node = new ListNode(2);
     head.next = node;
