@@ -31,9 +31,11 @@ public class CycleInLinkedListTest {
 
   @Test
   public void lengthOfCycle() {
-    ListNode head2 =  new ListNode(1);
-    head2.next = head2;
-    MatcherAssert.assertThat(cycleInLinkedList.lengthOfCycle(head2), CoreMatchers.equalTo(1));
+    ListNode head =  new ListNode(1);
+    ListNode node = new ListNode(2);
+    head.next = node;
+    node.next = head;
+    MatcherAssert.assertThat(cycleInLinkedList.lengthOfCycle(head), CoreMatchers.equalTo(2));
 
   }
 }

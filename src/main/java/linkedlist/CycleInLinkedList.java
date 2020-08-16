@@ -47,4 +47,10 @@ public class CycleInLinkedList {
     return 0;
   }
 
+  public ListNode startNodeOfCycle(ListNode head) {
+
+
+    return null;
+  }
+
 }
