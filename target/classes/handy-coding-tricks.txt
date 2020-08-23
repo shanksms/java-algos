@@ -102,3 +102,10 @@ BufferedReader buffReader = new BufferedReader(new InputStreamReader(System.in))
     int lines = Integer.parseInt(buffReader.readLine());
 
 ###########################################################################
+
+###########################################################################
+convert a string to Character array
+############################################################################
+String test = "shashank";
+ Character[] charObjectArray =
+        test.chars().mapToObj(c -> (char)c).toArray(Character[]::new);
