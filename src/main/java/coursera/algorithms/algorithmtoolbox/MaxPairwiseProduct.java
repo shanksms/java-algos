@@ -1,4 +1,4 @@
-package coursera.algorithms;
+package coursera.algorithms.algorithmtoolbox;
 
 import java.util.*;
 import java.io.*;
