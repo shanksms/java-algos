@@ -1,11 +1,33 @@
 package coursera.algorithms.algorithmtoolbox.divideandconquer;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
+//this is incomplete
 public class PointsAndSegments {
+
+    static class Event {
+        int coordinate;
+        int type;
+        int index;
+
+         Event(int coordinate, int type, int index) {
+            this.coordinate = coordinate;
+            this.type = type;
+            this.index = index;
+        }
+    }
 
     private static int[] fastCountSegments(int[] starts, int[] ends, int[] points) {
         int[] cnt = new int[points.length];
+        List<Event> events = new ArrayList<>();
+        for (int i=0; i < starts.length; i++) {
+            Event event = new Event(starts[i], 'l', i);
+            //events.add(event);
+
+        }
+
         //write your code here
         return cnt;
     }
@@ -38,10 +60,9 @@ public class PointsAndSegments {
             points[i] = scanner.nextInt();
         }
         //use fastCountSegments
-        int[] cnt = naiveCountSegments(starts, ends, points);
+        int[] cnt = fastCountSegments(starts, ends, points);
         for (int x : cnt) {
             System.out.print(x + " ");
         }
     }
 }
-
