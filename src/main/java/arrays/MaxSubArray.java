@@ -35,7 +35,8 @@ public class MaxSubArray {
     public static void main(String[] args)
     {
         //System.out.println(maxSubArrayKdane(new int[] {-2,1,-3,4,-1,2,1,-5,4}));
-        System.out.println(maxSubArrayDynamicArray(new int[] {-2,1,-3,4,-1,2,1,-5,4}));
+       // System.out.println(maxSubArrayDynamicArray(new int[] {-2,1,-3,4,-1,2,1,-5,4}));
+        System.out.println(maxSubArrayDynamicArray(new int[] {-2, -3, 4, -1, -2, 1, 5, -3}));
     }
 
     public int numSubarrayProductLessThanK(int[] nums, int k) {
