@@ -1,5 +1,8 @@
 package linkedlist;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Reverse a singly linked list.
  *
@@ -25,4 +28,18 @@ public class ReverseLinkedList {
         return previous;
 
     }
+    public ListNode reverseListRecursive(ListNode head) {
+        if (head == null) return head;
+        if (head.next == null) return head;
+
+        ListNode newHead = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+
+        return newHead;
+    }
+
+
+
+
 }

@@ -28,7 +28,6 @@ public class DecodeString {
     Deque<StringBuilder> result = new ArrayDeque<>();
     Deque<Integer> multipliers = new ArrayDeque<>();
     result.push(new StringBuilder());
-    result.push(new StringBuilder());
 
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
